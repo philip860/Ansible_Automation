@@ -1,0 +1,5 @@
+---
+- name: Reboot Windows Server
+  ansible.builtin.include_tasks:
+    file: winservers_reboot.yml
+    

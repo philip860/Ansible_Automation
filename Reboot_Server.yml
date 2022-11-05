@@ -1,0 +1,7 @@
+---
+- name: Reboot Windows Server Test
+  hosts: "{{ its_specific_host }}" 
+  gather_facts: true
+  roles:
+    - reboot
+   
